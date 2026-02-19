@@ -1,0 +1,52 @@
+<a href="TU_ENLACE_AQUI" style="text-decoration: none; display: inline-block;">
+  <div style="
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50px;
+    border: 1.5px solid rgba(180, 50, 40, 0.3);
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', serif;
+    background: rgba(255,255,255,0.97);
+    box-shadow: 0 2px 10px rgba(180,50,40,0.08);
+    transition: box-shadow 0.3s ease, background 0.3s ease, border-color 0.3s ease;
+  "
+  onmouseover="
+    this.style.background='rgba(255,245,244,1)';
+    this.style.boxShadow='0 4px 20px rgba(180,50,40,0.18)';
+    this.style.borderColor='rgba(180,50,40,0.55)';
+  "
+  onmouseout="
+    this.style.background='rgba(255,255,255,0.97)';
+    this.style.boxShadow='0 2px 10px rgba(180,50,40,0.08)';
+    this.style.borderColor='rgba(180,50,40,0.3)';
+  "
+  >
+    <!-- Texto izquierdo -->
+    <span style="
+      padding: 11px 20px 11px 22px;
+      font-size: 0.75rem;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      color: #b43228;
+      font-weight: 700;
+      white-space: nowrap;
+      transition: color 0.3s ease;
+    ">Información General de la Asignatura</span>
+
+    <!-- Pastilla derecha con ícono -->
+    <div style="
+      background: #b43228;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 11px 16px;
+      border-radius: 0 50px 50px 0;
+      margin-left: 2px;
+    ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </div>
+  </div>
+</a>
